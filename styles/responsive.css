@@ -1,0 +1,55 @@
+@media all and (max-width: 992px) {
+    #list {
+        width:75%;
+    }
+    #pen {
+        background: url("../pictures/pen2.webp") scroll no-repeat;
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60px;
+        margin-top: 7%;
+      }
+}
+
+@media all and (max-width: 576px) {
+    input {
+        width: 60%;
+        margin: auto;
+        background-color: white;
+      }
+    #list {
+        margin:auto;
+        width:90%;
+
+    }
+     button {
+        display: block;
+        margin: 10px auto 10px auto;
+        float: none;  
+    }
+    button.btn-secondary, .paper-btn.btn-secondary, [type="button"].btn-secondary {
+        margin: auto;
+      }
+    h1 {
+        font-size: 50px;
+        margin-top: 0px;
+        margin: auto;
+    }
+    ul li {
+        text-align: center;
+        font-size: 25px;
+    }
+    li {
+        border-top: 1px dashed #d9d9d8;
+        line-height: 1.5;
+    }
+    
+    #leftEdging {
+        display: none;
+    }
+    #pen {
+        display: none;
+    }
+}
