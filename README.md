@@ -2,7 +2,7 @@
     A realiser pendant les vacances de Noël
 
 Fonctionnalités attendues:
-CRUD = Create read Update and Delete
+CRUD = Create Read Update and Delete
 
     Creer une Todo et l'afficher
     Afficher les todos
